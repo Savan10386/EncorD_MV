@@ -1,9 +1,0 @@
-EncorDashboard\Logging\CustomReporter.class
-EncorDashboard\UserInterface\CreateDashboard.class
-EncorDashboard\GlobalLibrary\GlobalVariables.class
-EncorDashboard\GlobalLibrary\GlobalFunction.class
-EncorDashboard\UserInterface\Administration.class
-EncorDashboard\GlobalLibrary\GenericFunction.class
-EncorDashboard\UserInterface\DashboardList.class
-EncorDashboard\UserInterface\DashboardGearWheelMenu.class
-EncorDashboard\Logging\WebEventListener.class
