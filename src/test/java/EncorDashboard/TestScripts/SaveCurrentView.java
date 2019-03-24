@@ -4,6 +4,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.File;
 
 import org.openqa.selenium.By;
@@ -22,6 +26,7 @@ import EncorDashboard.UserInterface.DashboardGearWheelMenu;
 
 public class SaveCurrentView {
 	
+
 
 	@BeforeMethod
 	public void setUp() throws Exception {
@@ -51,7 +56,7 @@ public class SaveCurrentView {
 			    
 			    dgwlm.SaveCurrentView();
 			        
-			    AssertJUnit.assertEquals(GlobalVariables.oDriver.findElement(By.id("ctl00_IndigoLiteMasterContent_lblDashboardName")).getText(),"HAC(M) :: All Categories"); 
+			    Assert.assertEquals(GlobalVariables.oDriver.findElement(By.id("ctl00_IndigoLiteMasterContent_lblDashboardName")).getText(),"HAC(M) :: All Categories"); 
 			    
 			  			
 		}
@@ -60,6 +65,7 @@ public class SaveCurrentView {
 		}
 	}
 	
+
 
 	@AfterMethod
 	public void tearDown() throws Exception {

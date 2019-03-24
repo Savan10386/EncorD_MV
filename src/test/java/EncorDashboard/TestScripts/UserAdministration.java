@@ -3,6 +3,9 @@ package EncorDashboard.TestScripts;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.File;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -50,7 +53,7 @@ public class UserAdministration {
 			     
 			     System.out.println(GlobalVariables.oDriver.findElement(By.cssSelector("span#ui-dialog-title-accessUpdatedDialog")).getText());
 			     
-			     AssertJUnit.assertEquals(GlobalVariables.oDriver.findElement(By.cssSelector("span#ui-dialog-title-accessUpdatedDialog")).getText(),"User Updated");
+			     Assert.assertEquals(GlobalVariables.oDriver.findElement(By.cssSelector("span#ui-dialog-title-accessUpdatedDialog")).getText(),"User Updated");
 					        
 		//	    Assert.assertEquals(GlobalVariables.oDriver.findElement(By.id("UserInformation_UserFName")).getText(),"savan");
 			    
@@ -63,6 +66,7 @@ public class UserAdministration {
 		}
 	}
 	
+
 
 	@AfterMethod
 	public void tearDown() throws Exception {

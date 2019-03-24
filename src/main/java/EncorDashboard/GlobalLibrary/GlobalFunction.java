@@ -21,7 +21,7 @@ public class GlobalFunction {
 	public static void BrowsersSettings()
 	{
 		//office
-		File file = new File("E:/workspace/EncorD-Dashboard_Maven/chromedriver.exe");
+		File file = new File("C:/Users/Savan/git/EncorD_MV/chromedriver.exe");
 		//home
 		//File file = new File("C:/Users/leomahesh/git/EncorD-Dashboard/Library/chromedriver.exe"); 
 		
@@ -48,7 +48,7 @@ public class GlobalFunction {
 		
 		GenericFunction gfn = new GenericFunction();
 			
- 		gfn.Read_XLS(System.getProperty("user.dir")+"\\bin\\EncorDashboard\\ExcelFile\\"+ExcelfileName+".xls");
+ 		gfn.Read_XLS(System.getProperty("user.dir")+"\\src\\main\\java\\EncorDashboard\\ExcelFile\\"+ExcelfileName+".xls");
  		
  		gfn.retrieveNoOfRows(SheetTabName);
  	

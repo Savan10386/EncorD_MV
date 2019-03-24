@@ -3,6 +3,9 @@ package EncorDashboard.TestScripts;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +21,7 @@ import EncorDashboard.UserInterface.DashboardList;
 
 public class VerifyDashboardData {
 	
+
 
 	@BeforeMethod
 	public void setUp() throws Exception {
@@ -50,7 +54,7 @@ public class VerifyDashboardData {
 			    
 			    GenericFunction.dbConnect();
 			    			    			    		   			 
-	          AssertJUnit.assertEquals(GlobalVariables.oDriver.getTitle(),"Add/Edit Dashboard");			   
+	          Assert.assertEquals(GlobalVariables.oDriver.getTitle(),"Add/Edit Dashboard");			   
 			 
 		}
 		catch (Exception e) {
@@ -69,6 +73,7 @@ public class VerifyDashboardData {
 			}
 	
 	
+
 	@AfterMethod
 	public void tearDown() throws Exception {
 		GlobalVariables.oDriver.quit();

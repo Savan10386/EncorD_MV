@@ -3,6 +3,9 @@ package EncorDashboard.TestScripts;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.File;
 
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -31,6 +34,7 @@ public class AddDashboard
 	//testfile
     
 	
+
 	@BeforeMethod
 	public void setUp() throws Exception {
 		
@@ -83,6 +87,7 @@ public class AddDashboard
 			}
 	
 	
+
 	@AfterMethod
 	public void tearDown() throws Exception {
 		GlobalVariables.oDriver.quit();

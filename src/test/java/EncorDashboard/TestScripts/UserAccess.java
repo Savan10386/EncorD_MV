@@ -2,6 +2,8 @@ package EncorDashboard.TestScripts;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +16,7 @@ import EncorDashboard.UserInterface.Administration;
 
 public class UserAccess {
 	
+
 
 	@BeforeMethod
 	public void setUp() throws Exception {
@@ -52,6 +55,7 @@ public class UserAccess {
 	}
 	
 	
+
 	@AfterMethod
 	public void tearDown() throws Exception {
 		

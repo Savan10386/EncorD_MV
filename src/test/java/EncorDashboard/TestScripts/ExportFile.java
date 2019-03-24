@@ -4,6 +4,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeMethod;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import java.io.File;
 
 import org.openqa.selenium.By;
@@ -23,6 +27,7 @@ import EncorDashboard.UserInterface.DashboardGearWheelMenu;
 public class ExportFile {
 	
 
+	
 	@BeforeMethod
 	public void setUp() throws Exception {
 		
@@ -49,7 +54,7 @@ public class ExportFile {
 			    
 			 //   dgwlm.VerifyExportedFile();
 			    
-			    AssertJUnit.assertEquals(GlobalVariables.oDriver.findElement(By.id("ctl00_IndigoLiteMasterContent_lblDashboardName")).getText(),"HAC(M) :: All Categories"); 
+			    Assert.assertEquals(GlobalVariables.oDriver.findElement(By.id("ctl00_IndigoLiteMasterContent_lblDashboardName")).getText(),"HAC(M) :: All Categories"); 
 			    
 			  			
 		}
@@ -59,6 +64,7 @@ public class ExportFile {
 	}
 	
 	
+
 	@AfterMethod
 	public void tearDown() throws Exception {
 		GlobalVariables.oDriver.quit();
