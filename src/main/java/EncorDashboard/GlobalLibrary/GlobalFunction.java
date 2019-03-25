@@ -21,7 +21,7 @@ public class GlobalFunction {
 	public static void BrowsersSettings()
 	{
 		//office
-		File file = new File("C:/Users/Savan/git/EncorD_MV/chromedriver.exe");
+		File file = new File("C:/Users/leomahesh/git/EncorD_MV/chromedriver.exe");
 		//home
 		//File file = new File("C:/Users/leomahesh/git/EncorD-Dashboard/Library/chromedriver.exe"); 
 		
