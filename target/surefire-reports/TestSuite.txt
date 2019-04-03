@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 1,048.018 s <<< FAILURE! - in TestSuite
+AddDashboard(EncorDashboard.TestScripts.AddDashboard)  Time elapsed: 33.491 s  <<< FAILURE!
+java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+
+AddDashboard(EncorDashboard.TestScripts.AddDashboard)  Time elapsed: 37.504 s  <<< FAILURE!
+java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+
+AddDashboard(EncorDashboard.TestScripts.AddDashboard)  Time elapsed: 27.222 s  <<< FAILURE!
+java.io.IOException: Destination 'D:\' directory cannot be created
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:76)
+
+AddDashboard(EncorDashboard.TestScripts.AddDashboard)  Time elapsed: 33.576 s  <<< FAILURE!
+java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+
+AddDashboard(EncorDashboard.TestScripts.AddDashboard)  Time elapsed: 33.833 s  <<< FAILURE!
+java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+
+SetResetDashboard(EncorDashboard.TestScripts.SetResetDashboard)  Time elapsed: 145.612 s  <<< FAILURE!
+java.lang.AssertionError: expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]
+	at EncorDashboard.TestScripts.SetResetDashboard.SetResetDashboard(SetResetDashboard.java:59)
+
+ExportDashboard(EncorDashboard.TestScripts.ExportFile)  Time elapsed: 75.136 s  <<< FAILURE!
+java.lang.AssertionError: expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]
+	at EncorDashboard.TestScripts.ExportFile.ExportDashboard(ExportFile.java:57)
+

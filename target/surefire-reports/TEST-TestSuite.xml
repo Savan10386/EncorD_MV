@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,048.018" tests="12" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Savan\git\EncorD_MV\target\test-classes;C:\Users\Savan\git\EncorD_MV\target\classes;C:\Users\Savan\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Savan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Savan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Savan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Savan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Savan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Savan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Savan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Savan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Savan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Savan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Savan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Savan\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\Savan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi\3.14\poi-3.14.jar;C:\Users\Savan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Savan\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Savan\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Savan\.m2\repository\org\jxls\jxls\2.5.1\jxls-2.5.1.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;C:\Users\Savan\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Savan\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Savan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Savan\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\Savan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.12\jcl-over-slf4j-1.7.12.jar;C:\Users\Savan\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\Savan\.m2\repository\com\fredericboisguerin\excel\excel-reader-writer\2.1\excel-reader-writer-2.1.jar;C:\Users\Savan\.m2\repository\org\jxls\jxls-reader\2.0.0\jxls-reader-2.0.0.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-digester3\3.2\commons-digester3-3.2-with-deps.jar;C:\Users\Savan\.m2\repository\cglib\cglib\2.2.2\cglib-2.2.2.jar;C:\Users\Savan\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Savan\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\Savan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Savan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Savan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Savan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Savan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Savan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Savan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Savan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Savan\.m2\repository\net\sf\saxon\Saxon-HE\9.9.1-1\Saxon-HE-9.9.1-1.jar;C:\Users\Savan\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Savan\AppData\Local\Temp\surefire750099951797986432\surefirebooter4354267482991758968.jar C:\Users\Savan\AppData\Local\Temp\surefire750099951797986432 2019-03-24T21-11-23_679-jvmRun1 surefire3170614193528602435tmp surefire_08719323646076891648tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Savan\git\EncorD_MV\target\test-classes;C:\Users\Savan\git\EncorD_MV\target\classes;C:\Users\Savan\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\Savan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\Savan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Savan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Savan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Savan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Savan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Savan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Savan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Savan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Savan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Savan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Savan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Savan\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.1\poi-ooxml-schemas-4.0.1.jar;C:\Users\Savan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.2\xmlbeans-3.0.2.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi\3.14\poi-3.14.jar;C:\Users\Savan\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Savan\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Savan\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Savan\.m2\repository\org\jxls\jxls\2.5.1\jxls-2.5.1.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;C:\Users\Savan\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Savan\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Savan\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Savan\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\Savan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.12\jcl-over-slf4j-1.7.12.jar;C:\Users\Savan\.m2\repository\ch\qos\logback\logback-core\1.1.3\logback-core-1.1.3.jar;C:\Users\Savan\.m2\repository\com\fredericboisguerin\excel\excel-reader-writer\2.1\excel-reader-writer-2.1.jar;C:\Users\Savan\.m2\repository\org\jxls\jxls-reader\2.0.0\jxls-reader-2.0.0.jar;C:\Users\Savan\.m2\repository\org\apache\commons\commons-digester3\3.2\commons-digester3-3.2-with-deps.jar;C:\Users\Savan\.m2\repository\cglib\cglib\2.2.2\cglib-2.2.2.jar;C:\Users\Savan\.m2\repository\asm\asm\3.3.1\asm-3.3.1.jar;C:\Users\Savan\.m2\repository\ch\qos\logback\logback-classic\1.1.3\logback-classic-1.1.3.jar;C:\Users\Savan\.m2\repository\org\apache\poi\poi-ooxml\3.11\poi-ooxml-3.11.jar;C:\Users\Savan\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Savan\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Savan\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Savan\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Savan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Savan\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Savan\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Savan\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\Savan\.m2\repository\net\sf\saxon\Saxon-HE\9.9.1-1\Saxon-HE-9.9.1-1.jar;C:\Users\Savan\.m2\repository\org\slf4j\slf4j-log4j12\1.5.6\slf4j-log4j12-1.5.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Savan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="C:\Users\Savan\git\EncorD_MV"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Savan\AppData\Local\Temp\surefire750099951797986432\surefirebooter4354267482991758968.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="Savan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Savan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Savan\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="C:\Users\Savan\git\EncorD_MV"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Savan\AppData\Local\Microsoft\WindowsApps;;C:\Savan\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="UserAccess" classname="EncorDashboard.TestScripts.UserAccess" time="16.627"/>
+  <testcase name="ChangeDashboard" classname="EncorDashboard.TestScripts.ChangeDashboard" time="97.59"/>
+  <testcase name="AddDashboard" classname="EncorDashboard.TestScripts.AddDashboard" time="33.491">
+    <failure message="expected [Manage Dashboard] but found [Add/Edit Dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+</failure>
+    <system-out><![CDATA[Clinical Dashboard
+Dashboard1
+test2
+Clinical Dashboard
+test2
+Monthly Scorecard
+test2
+Calendar Year
+test2
+Y
+test2
+Abdominal Aortic Aneurysm(AAA) Repair Mortality Rate (IQI 11)
+test2
+N
+test2
+Monthly Scorecard
+Dashboard2
+test2
+Clinical Dashboard
+test2
+Monthly Scorecard
+test2
+Calendar Year
+test2
+Y
+test2
+Aspirin at Arrival (AMI-1)
+test2
+N
+test2
+Calendar Year
+Dashboard3
+test2
+Clinical Dashboard
+test2
+Monthly Scorecard
+test2
+Calendar Year
+test2
+Y
+test2
+Abdominal Aortic Aneurysm(AAA) Repair Mortality Rate (IQI 11)
+test2
+N
+test2
+Y
+Dashboard4
+test2
+Clinical Dashboard
+test2
+Monthly Scorecard
+test2
+Calendar Year
+test2
+Y
+test2
+Abdominal Aortic Aneurysm(AAA) Repair Mortality Rate (IQI 11)
+test2
+N
+test2
+Abdominal Aortic Aneurysm(AAA) Repair Mortality Rate (IQI 11)
+Dashboard5
+test2
+Clinical Dashboard
+test2
+Monthly Scorecard
+test2
+Calendar Year
+test2
+Y
+test2
+Abdominal Aortic Aneurysm(AAA) Repair Mortality Rate (IQI 11)
+test2
+N
+test2
+Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+Dashboard1,Clinical Dashboard
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 39406
+Only local connections are allowed.
+Mar 24, 2019 9:14:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="AddDashboard" classname="EncorDashboard.TestScripts.AddDashboard" time="37.504">
+    <failure message="expected [Manage Dashboard] but found [Add/Edit Dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+Dashboard2,Clinical Dashboard
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 12388
+Only local connections are allowed.
+Mar 24, 2019 9:15:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="AddDashboard" classname="EncorDashboard.TestScripts.AddDashboard" time="27.222">
+    <failure message="Destination &apos;D:\&apos; directory cannot be created" type="java.io.IOException">java.io.IOException: Destination 'D:\' directory cannot be created
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:76)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+Dashboard3,Clinical Dashboard
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 2673
+Only local connections are allowed.
+Mar 24, 2019 9:16:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="AddDashboard" classname="EncorDashboard.TestScripts.AddDashboard" time="33.576">
+    <failure message="expected [Manage Dashboard] but found [Add/Edit Dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+Dashboard4,Clinical Dashboard
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 44921
+Only local connections are allowed.
+Mar 24, 2019 9:17:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="AddDashboard" classname="EncorDashboard.TestScripts.AddDashboard" time="33.833">
+    <failure message="expected [Manage Dashboard] but found [Add/Edit Dashboard]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Manage Dashboard] but found [Add/Edit Dashboard]
+	at EncorDashboard.TestScripts.AddDashboard.AddDashboard(AddDashboard.java:71)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+Dashboard5,Clinical Dashboard
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 23978
+Only local connections are allowed.
+Mar 24, 2019 9:18:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UserAdministration" classname="EncorDashboard.TestScripts.UserAdministration" time="41.029"/>
+  <testcase name="SetResetDashboard" classname="EncorDashboard.TestScripts.SetResetDashboard" time="145.612">
+    <failure message="expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]
+	at EncorDashboard.TestScripts.SetResetDashboard.SetResetDashboard(SetResetDashboard.java:59)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 14338
+Only local connections are allowed.
+Mar 24, 2019 9:20:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UserAccess" classname="EncorDashboard.TestScripts.SetDashboardData" time="101.066"/>
+  <testcase name="SaveView" classname="EncorDashboard.TestScripts.SaveCurrentView" time="90.364"/>
+  <testcase name="ExportDashboard" classname="EncorDashboard.TestScripts.ExportFile" time="75.136">
+    <failure message="expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HAC(M) :: All Categories] but found [Electronic Dashboard(M) :: All Categories]
+	at EncorDashboard.TestScripts.ExportFile.ExportDashboard(ExportFile.java:57)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'http://msv-qa-web/encord-sh-qa-x-02'
+Navigated to:'http://msv-qa-web/encord-sh-qa-x-02'
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 31006
+Only local connections are allowed.
+Mar 24, 2019 9:27:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
